@@ -2,13 +2,13 @@ from flask import Flask, render_template, redirect, request, url_for, session
 from firebase import Firebase
 
 config = {
-    "apiKey": "AIzaSyBL-6E-f1GGYmxqOqJMvI1AekPzIORCr38",
-    "authDomain": "voting-7f2da.firebaseapp.com",
-    "databaseURL": "https://voting-7f2da-default-rtdb.firebaseio.com",
-    "projectId": "voting-7f2da",
-    "storageBucket": "voting-7f2da.appspot.com",
-    "messagingSenderId": "767619014270",
-    "appId": "1:767619014270:web:c137edd767ac4dda98422f"
+    "apiKey": "",
+    "authDomain": "",
+    "databaseURL": "",
+    "projectId": "",
+    "storageBucket": "",
+    "messagingSenderId": "",
+    "appId": ""
 }
 firebase = Firebase(config)
 
@@ -17,7 +17,7 @@ auth = firebase.auth()
 db = firebase.database()
 
 app = Flask(__name__)
-app.secret_key = "!@#$%^&*()"
+app.secret_key = ""
 
 # index route
 @app.route("/", methods=["GET"])
