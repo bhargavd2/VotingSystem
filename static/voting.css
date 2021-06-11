@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-cont {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpbjnHWSPIfCNJ88mBxrHmUs1iA391IRLTQA&usqp=CAU");
+    background-size: cover;
+    padding: 10px;
+    height:100vh;
+}
+
+.navbar-nav .dropdown-menu li:hover {
+    background-color: #FF0000;
+    color: grey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.cont {
+    background-color: transparent;
+    height: 100%;
+}
+
+.maincont {
+    background-color: transparent;
+    height: 83vh;
+    width: 100%;
+
+}
+
+.lab {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.input-box {
+    width: 90%;
+    height: 50px;
+    background-color: rgb(105, 105, 105);
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 0px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border: 0px;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+input:focus {
+    outline: none;
+    border: 0px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.ctrl-btn{
+     width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 0px;
+}
+th,td {
+    text-align: center;
+}
+
+.cbox {
+    width: 15px;
+    height: 15px;
+}
+.con{
+    width: 200px;
+    height: 200px;
+}
